@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>46elks Recordings</title>
+    <style>
+    body{
+        background-color: #37c1ea;
+    }
+    div.blocktext {
+        margin: 40px;
+    }
+    h1 {
+        color: #fff;
+        font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .subtext {
+        padding-top: 0;
+        margin-top: 0;
+        font-family: Consolas, monaco, monospace;
+        font-size: 25px;
+    }
+    a:link, a:visited, a:active  {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+    </style>
+</head>
+<body>
+<div class="blocktext">
+    <h1>46elks Recordings</h1>
+    <h2 class="subtext">//{{now}}</h2>
+    <ul>
+        {% for wav in wavs %}
+        <li><a href="recordings/{{wav}}">{{wav}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
