@@ -15,7 +15,7 @@ I would still have to answer the phone in order to get the recording.
 
 ## Setup
 
-Create the phone nr. in [46elks](https://46elks.com/) and configure it with:
+Create the phone nr. in [46elks](https://www.46elks.com/docs#number-allocation) through the API or in the [web interface](https://dashboard.46elks.com/numbers) and configure it with:
 ```
 {"connect":"+467XXXXXXXX","recordcall":"http://XYZ.ngrok.io/record"}
 ```
