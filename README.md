@@ -1,21 +1,21 @@
-# Recording utility for [46ekls](https://46elks.com/) phone nr. redirection
+# Recording utility for [46elks](https://46elks.com/) phone nr. redirection
 
 For a project I needed to record an automatic response I got from a robot. 
-I redirected my phone through [46ekls](https://46elks.com/) and that allowed 
+I redirected my phone through [46elks](https://46elks.com/) and that allowed 
 me to configure a phone nr. that would redirect to my number. 
 
 I would still have to answer the phone in order to get the recording.
 
 ## Tech 
 
-- [46ekls](https://46elks.com/) phone nr. redirection
+- [46elks](https://46elks.com/) phone nr. redirection
 - [Flask](http://flask.pocoo.org/) localhost server
 - [jinja](http://jinja.pocoo.org/) templating
 - [ngrok](https://ngrok.com/) expose the local server to the internet
 
 ## Setup
 
-Create the phone nr. in [46ekls](https://46elks.com/) and configure it with:
+Create the phone nr. in [46elks](https://46elks.com/) and configure it with:
 ```
 {"connect":"+467XXXXXXXX","recordcall":"http://XYZ.ngrok.io/record"}
 ```
